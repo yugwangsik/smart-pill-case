@@ -8,3 +8,12 @@
 ## nodejs & npm install
   - sudo apt-get nodejs npm
   - npm install
+
+## wifi 고정 ip
+  - wifi 아이콘 오른쪽 클릭
+  - wireless & wired Network Setings
+  - configure: interface wlan0
+  - IPv4 Address: 192.168.???.???
+  - Router: 192.168.1.1
+  - DNS Servers: 8.8.8.8
+  - DNS Search: 8.8.4.4
