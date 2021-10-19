@@ -1,0 +1,10 @@
+## install
+  - sudo apt-get update
+  - sudo apt-get upgrade
+  - git clone https://github.com/naver/clova-extension-sample-dice.git
+  - cd clova-extension-sample-dice
+  - git checkout tutorial1
+
+## nodejs & npm install
+  - sudo apt-get nodejs npm
+  - npm install
