@@ -6,7 +6,7 @@
   - git checkout tutorial1
 
 ## nodejs & npm install
-  - sudo apt-get nodejs npm
+  - sudo apt-get install nodejs npm
   - npm install
 
 ## wifi 고정 ip
