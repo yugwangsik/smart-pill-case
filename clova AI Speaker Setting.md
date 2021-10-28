@@ -9,11 +9,9 @@
   - sudo apt-get install nodejs npm
   - npm install
 
-## wifi 고정 ip
-  - wifi 아이콘 오른쪽 클릭
-  - wireless & wired Network Setings
-  - configure: interface wlan0
-  - IPv4 Address: 192.168.???.???
-  - Router: 192.168.1.1
-  - DNS Servers: 8.8.8.8
-  - DNS Search: 8.8.4.4
+## ufw 설정
+  - sudo ufw allow 22
+  - sudo ufw reload
+
+## 3000번 포트 열기
+  - sudo iptables -I INPUT 1 -p tcp --dport 3000 -j ACCEPT
